@@ -1,0 +1,248 @@
+using System;
+
+namespace ConsoleApp3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //int rows = Convert.ToInt32(Console.ReadLine());
+            //int col = Convert.ToInt32(Console.ReadLine());
+
+            //hollow rectangle
+            //for (int i = 1; i <= rows; i++)
+            //{
+            //    for (int j = 1; j <= col; j++)
+            //    {
+            //        if (i==1 || i==rows || j==1 || j==col)
+            //        {
+
+            //            Console.Write("*");
+            //        }
+            //        else
+            //        {
+            //            Console.Write(" ");
+            //        }
+            //    }
+
+            //    Console.WriteLine();
+
+
+            //}
+
+            //inverted half pyramid
+            //int n = Convert.ToInt32(Console.ReadLine());
+
+            //for (int i = n; i >= 1; i--)
+            //{
+            //    for (int j = 1; j <= i; j++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine("");
+            //}
+
+            //half pyramid rotation
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //for (int i = 1; i <=n; i++)
+            //{
+            //    for (int j = 1; j <= n; j++)
+            //    {
+            //        if (j<=n-i)
+            //        {
+            //            Console.Write(" ");
+            //        }
+            //        else
+            //        {
+            //            Console.Write("*");
+            //        }
+
+            //    }
+            //    Console.WriteLine();
+
+            //}
+
+            //half pyramid using number
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //for (int i = 1; i <= n; i++)
+            //{
+            //    for (int j = 1; j <=i; j++)
+            //    {
+            //        Console.Write(i + "");
+
+            //    }
+            //    Console.WriteLine();
+
+            //}
+
+            //floyads pyramid
+            //int count = 1;
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //for (int i = 1; i < n; i++)
+            //{
+            //    for (int j = 1; j <=i; j++)
+            //    {
+            //        Console.Write(count+" ");
+            //        count++;
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            //butterfly pattern
+            //int n = Convert.ToInt32(Console.ReadLine());
+
+            //for (int i = 1; i <=n; i++)
+            //{
+            //    for (int j = 1; j <=i; j++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    //Console.WriteLine();
+            //    int space = 2 * n - 2 * i;
+            //    for (int j = 1; j <=space; j++)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    for (int j = 1; j <= i; j++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+
+            //}
+            //for (int i = n; i >= 1; i--)
+            //{
+            //    for (int j = 1; j <= i; j++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    //Console.WriteLine();
+            //    int space = 2 * n - 2 * i;
+            //    for (int j = 1; j <= space; j++)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    for (int j = 1; j <= i; j++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+
+            //}
+
+
+
+            //inverted patern
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //for (int i = 1; i <=n; i++)
+            //{
+            //    for (int j = 1; j <=(n+1-i); j++)
+            //    {
+            //        Console.Write(j + " ");
+            //    } 
+            //    Console.WriteLine();
+            //}
+
+
+            //0-1 patern
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //for (int i = 1; i <=n; i++)
+            //{
+            //    for (int j = 1; j <=i; j++)
+            //    {
+            //        if ((i+j)%2==0)
+            //        {
+            //            Console.Write("1 ");
+            //        }
+            //        else
+            //        {
+            //            Console.Write("0 ");
+            //        }
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
+            //rhombus patern
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //for (int i = 1; i <=n; i++)
+            //{
+            //    for (int j = 1; j <=n-i; j++)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    for (int j = 1; j <=n; j++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
+
+            //number patern
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //for (int i = 1; i <=n; i++)
+            //{
+            //    for (int j = 1; j <=n-i; j++)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    for (int j = 1; j <= i; j++)
+            //    {
+            //        Console.Write(j+" ");
+            //    }
+
+            //    Console.WriteLine();
+            //}
+
+
+            //palindromic patern
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //for (int i = 1; i <= n; i++)
+            //{
+            //    int j;
+            //    for (j = 1; j <= n - i; j++)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    int k = i;
+            //    for (; j <= n; j++)
+            //    {
+            //        Console.Write(k-- + " ");
+            //    }
+            //    k = 2;
+            //    for (; j <= (n+i-1); j++)
+            //    {
+            //        Console.Write(k++ +" ");
+            //    }
+
+            //    Console.WriteLine();
+            //}
+
+            //zig zag patern
+            int n = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = 1; i <=3; i++)
+            {
+                for (int j = 1; j <=n; j++)
+                {
+                    if ((i+j)%4==0 || (i==2 && j%4==0))
+                    {
+                        Console.Write("* ");
+                    }
+                    else
+                    {
+                        Console.Write(" ");
+                    }
+                }
+                Console.WriteLine();
+                
+
+            }
+            Console.ReadKey();
+
+
+        }
+    }
+}
